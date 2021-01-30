@@ -44,21 +44,33 @@ module.exports = {
   service1: {
     api: 'FIX_ME',
     url: 'http://localhost:3001',
-    bundle: 'app.js',
+    bundle: 'bundle6.js',
   },
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: '/bechampions/main',
+    api2: '/bechampions/purchase-item',
+    url: 'http://localhost:3030',
+    bundle: 'bundle.js',
   },
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: '/bechampions/socialmedia/id',
+    api2: '/bechampions/productspecdetail/id',
+    url: 'http://localhost:3005',
+    bundle: 'bundle.js',
   },
   service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
+    api: '/bechampions/suggestions',
+    url: 'http://localhost:3050',
+    bundle: 'bundle5.js',
+  },
+  service5: {
+    api: '/bechampions/products/:productId',
+    url: 'http://localhost:3040',
+    bundle: 'bundle4.js',
+  },
+  service6: {
+    api: '/bechampions/suggestions',
+    url: 'http://localhost:3020',
+    bundle: 'bundle3.js',
   },
 };
